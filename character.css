@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+body{
+    "YU Gothic Medium", "游ゴシック Medium", "YUGothic", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header */
+.logo{
+    width: 200px;
+    margin-top: 14px;
+}
+
+/* Body */
+h1{
+    font-size: xx-large;
+    font-style: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table.gold{
+    border-style: solid;
+    border-color: gold;
+}
+
+table.black{
+    border-style: solid;
+    border-color: black;
+}
+
+
