@@ -1,0 +1,36 @@
+@charset "UTF-8"
+#home{
+    background-image: linear-gradient(green, black);
+    min-height: 100vh;
+}
+
+/* 基本 */
+html{
+    font-size: 100%;
+}[
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Head */
+title{
+    text-align: center;
+}
+
+/* Header */
+.logo{
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
