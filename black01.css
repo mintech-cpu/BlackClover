@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* 共通部分 */
+html{
+    font-size: 100%;
+}
+body{
+    font-family: 'Philosopher', serif;
+    line-height: 1.7;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/* header */
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 210px;
+}
+.main-nav {
+    display: flex;
+    font-size: 1.30rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    list-style: none; 
+    font-family: 'Philosopher', serif;  
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: black;
+}
+.main-nav a:hover {
+    color: #0bd;
+}
+
+/* HOME */
+.home-content {
+    text-align: center;
+    margin-top: 3%;
+}
+.home-content p {
+    font-size: 1.100rem;
+    margin: 5px 0 10px;
+    font-family: 'Philosopher', serif;
+}
+/* 見出し */
+.page-title {
+    margin: 10px 0 10px;
+    font-size: 4rem;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+/* ボタン */
+.button {
+    font-size: 1.375rem;
+    background: #94c674;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 32px;
+}
+.button:hover {
+    background: #94c674;
+}
+
+/* 背景 */
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+#home{
+    background-image: linear-gradient(#94c674, black);
+    min-height: 100vh;
+}
+
+/* CHARACTER */
+#character{
+    background-image:linear-gradient(yellow, orange);
+    height: 350px;
+    margin-bottom: 20px;
+}
+#character .page-title{
+    text-align: center;
+}
+
+/* フッター */
+footer{
+    background: orange;
+    text-align: center;
+    padding: 1px 0;
+}
+footer p{
+    color: black;
+    font-size: 0.875rem;
+}
+/* 表 */
+.grid{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+.item img{
+    margin: 7px 0 0;
+}
+.item td{
+    text-align: center;
+}
+.gold {
+    background-color: goldenrod;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.350);
+}
+
+/* license *//* license *//* license *//* license *//* license *//* license *//* license *//* license *//* license */
+#license{
+    background-image:linear-gradient(yellow, orange);
+    height: 350px;
+    margin-bottom: 20px;
+}
+#character .page-title{
+    text-align: center;
+}
+
+
+/* 吹き出し */
+.balloon5 {
+    width: 100%;
+    margin: 1.5em 0;
+    overflow: hidden;
+    justify-content: center;
+    
+}  
+.balloon5 .faceicon {
+    float: left;
+    width: 300px;
+
+} 
+.balloon5 .faceicon img{
+    width: 100%;
+    height: auto;
+    border: solid 3px black;
+} 
+.balloon5 .chatting {
+    width: 100%;
+} 
+.says {
+    display: inline-block;
+    position: relative; 
+    margin: 5px 0 0 105px;
+    padding: 17px 13px;
+    border-radius: 12px;
+    background: black;
+} 
+.says:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 18px; 
+    left: -24px;
+    border: 12px solid transparent;
+    border-right: 12px solid black;
+}  
+.says p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* ranking *//* ranking *//* ranking *//* ranking *//* ranking *//* ranking */
+#ranking{
+    background-image:linear-gradient(yellow, orange);
+    height: 350px;
+    margin-bottom: 20px;
+}
+#ranking .page-title{
+    text-align: center;
+}
+
+
+/* フッター */
+footer{
+    background: orange;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p{
+    color: black;
+    font-size: 0.875rem;
+}
+
+.bar{
+    max-width: 600px;
+    width: 100%;
+    margin: 1em;
+    color: white;
+    padding: 0.25em;
+    animation: bar-animation 1 2s;
+}
+  
+.bar1{
+    max-width: 70%;
+    background-color: goldenrod;
+}
+.bar2{
+    max-width: 30%;
+    background-color:black;
+}
+.bar3{
+    max-width: 60%;
+    background-color: silver
+}
+.bar4{
+    max-width: 50%;
+    background-color: blue;
+}
+.bar5{
+    max-width: 50%;
+    background-color: red;
+}
+.bar6{
+    max-width: 50%;
+    background-color: green;
+}
+  
+@keyframes bar-animation{
+0%{
+    width: 0px;
+}
+100%{
+    width: 100%;
+    }
+}
+  
+
+/* SNS */
+#sns{
+    background: black;
+    padding: 4% 0;
+}
+#sns .wrapper{
+    display: flex;
+    justify-content: space-between
+}
+#sns .subtitle{
+    margin-bottom: 30px;
+    color: white;
+}
+.snsbox{
+    width: 30%;
+}
+.snsbox_youtube{
+    width: 30%;
+}
